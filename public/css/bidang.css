@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+.hero {
+    background-color: #FFC60B;
+    min-height: 100vh;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .judul {
+    text-align: center;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+}
+.contents {
+    background-color: #2C2D34;
+    min-height: 100vh;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contents .col {
+    padding: 0.5rem;
+}
+.contents .box {
+    background-color: #FFC60B;
+    border-radius: 0.5rem;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 1.5rem;
+}
+.contents .gambar {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contents .gambar img {
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+}
+.contents .deskripsi {
+    padding: 1rem;
+    text-align: center;
+}
+.contents .tombol {
+    text-align: center;
+    background-color: white;
+}
+.contents .tombol button {
+    width: 100%;
+}

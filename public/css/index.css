@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+
+.hero {
+    min-height: 100vh;
+    height: fit-content;
+    background-color: #2C2D34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero img {
+    width: auto;
+    height: 70vh;
+}
+.hero .iaicp1 {
+    display: none;
+}
+.hero .box {
+    max-width: 90vw;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: #FEFFDB;
+    font-family: 'Share Tech', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1050px){
+    .hero img {
+        width: 40vw;
+        height: auto;
+    }
+    .hero .box {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 900px){
+    .hero img {
+        width: 50vw;
+        height: auto;
+    }
+    .hero .box {
+        position: absolute;
+    }
+    .hero .iaicp3 {
+        display: none;
+    }
+    .hero .iaicp1 {
+        display: block;
+    }
+}
+@media screen and (max-width: 530px){
+    .hero img {
+        width: 70vw;
+        height: auto;
+    }
+    .hero .box {
+        font-size: 2rem;
+    }
+}
+.bidang {
+    font-family: 'Share Tech', sans-serif;
+}
+.bidang .head {
+    display: flex;
+    align-items: center;
+}
+.bidang .line {
+    height: 3rem;
+    width: 0.5rem;
+    background-color: #FFC60B;
+}
+.bidang .judul {
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.bidang .subjudul {
+    font-weight: 500;
+    letter-spacing: 0.4rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.bidang .b1 {
+    background-color: #F6F4E6;
+    height: fit-content;
+    min-height: 80vh;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bidang .b2 {
+    background-color: #FFD369;
+    height: fit-content;
+    min-height: 80vh;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bidang .b3 {
+    background-color: #F6F4E6;
+    height: fit-content;
+    min-height: 80vh;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bidang .c {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+.bidang .c .box {
+    background-color: #2C2D34;
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 17.5rem;
+    color: white;
+    padding-bottom: 1.5rem;
+}
+.bidang .selengkapnya .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bidang .selengkapnya .box .text p {
+    font-size: larger;
+}
+.bidang .selengkapnya a:link {
+    color: white;
+    text-decoration: none;
+}
+.bidang .selengkapnya a:hover {
+    color: #444444;
+    background-color: #FF8B00;
+}
+.bidang .gambar {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bidang .gambar img {
+    border-radius: 50%; 
+    width: 50%;
+    height: auto;
+}
+.bidang .deskripsi {
+    padding: 1rem;
+    text-align: center;
+}
+.bidang .tombol {
+    text-align: center;
+    background-color: white;
+}
+.bidang .tombol  button {
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px){
+    .bidang .c .box {
+        height: 16rem;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 530px) {
+    .c5, .c4 {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .c {
+        width: 30vw;
+    }
+}
+@media screen and (max-width: 576px){
+    .bidang .c .box {
+        height: 17rem;
+    }
+}
+@media screen and (max-width: 500px){
+    .bidang .c .box {
+        height: 17rem;
+    }
+}
+@media screen and (max-width: 450px){
+    .bidang .c .box {
+        height: 20rem;
+    }
+    .bidang .c {
+        width: 70vw;
+        margin: 1rem 0;
+    }
+}
+@media screen and (max-width: 330px){
+    .bidang .line {
+        display: none;
+    }
+    .bidang .judul {
+        margin-left: 0;
+        letter-spacing: 0;
+        text-align: center;
+    }
+    .bidang .subjudul {
+        margin-left: 0;
+        letter-spacing: 0;
+        text-align: center;
+    }
+    .bidang .c .box {
+        height: 18rem;
+    }
+}
+.about {
+    background-color: #FFC60B;
+    min-height: 70vh;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Share Tech', sans-serif;
+    padding: 2rem;
+}
+.about .head .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .judul {
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.about .hr {
+    margin: auto;
+    width: 50vw;
+    height: 0.5rem;
+    background-color: #2C2D34;
+}
+.about .body {
+    margin: 3rem 1rem 1rem 1rem;
+}
+.about .box {
+    background-color: #2C2D34;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 35vh;
+    height: fit-content;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+@media screen and (max-width: 480px) {
+    .about {
+        padding: 2rem 1rem;
+    }
+    .about .body {
+        margin: 2rem 0.5rem 1rem 0.5rem;
+    }
+}

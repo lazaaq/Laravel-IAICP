@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+
+.contents {
+    min-height: 100vh;
+    height: fit-content;
+    background-color: #2C2D34;
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+}
+.contents .judul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.contents .judul .line {
+    height: 3rem;
+    width: 0.5rem;
+    background-color: #FFC60B;
+}
+.contents .judul .text {
+    color: white;
+    margin-left: 2rem;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.5rem;
+    font-weight: 700;
+}
+.contents .gambar {
+    text-align: center;
+}
+.contents .gambar img {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+}
+.contents .id {
+    display: flex;
+    align-items: center;
+}
+.contents .id form {
+    width: 100%;
+}
+.contents .form {
+    font-family: 'Share Tech', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.contents .check .berkuliah {
+    color: white;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+.contents .check .bekerja {
+    color: white;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+.contents .check {
+    display: flex;
+    align-items: center;
+}

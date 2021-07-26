@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+
+.signup-page {
+    height: 100vh;
+    background-color: #2C2D34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.signup-page .box {
+    height: fit-content;
+    min-height: 50vh;
+    width: 50vh;
+    background-color: #FF8B00;
+    border-radius: 1rem;
+    opacity: 80%;
+}
+.signup-page .head {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+.signup-page .head .line {
+    height: 2.5rem;
+    width: 0.3rem;
+    background-color: #FFC60B;
+    margin-right: 0.5rem;
+}
+.signup-page .head .text {
+    font-family: 'Share Tech', sans-serif;
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+    font-size: 30px;
+}
+.signup-page .body {
+    padding: 0 2rem 2rem 2rem ;
+}
+.signup-page .body .submit {
+    display: flex;
+    justify-content: center;
+}
+.signup-page .body .text {
+    line-height: 0.5rem;
+}

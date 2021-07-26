@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+header {
+    position: fixed;
+    width: 100%;
+    padding: 1.5rem 2rem 1rem 2rem;
+    transition: 0.6s;
+    z-index: 10;
+}
+header.sticky {
+    padding: 1.5rem 3rem;
+    background-color: #ffffff;
+}
+header .container {
+    display: flex;
+    align-items: center;
+}
+header .items {
+    display: flex;
+    align-items: center;
+}
+header .items img {
+    position: relative;
+    transition: 0.6s;
+}
+header .items ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: -1rem;
+}
+header .items ul li {
+    position: relative;
+    margin: 0.5rem 1rem 0 1rem;
+}
+header .items ul li a {
+    position: relative;
+    transition: 0.6s;
+    font-family: 'Share Tech', sans-serif;
+    font-size: larger;
+    letter-spacing: 0.3rem;
+}
+header .items ul li a:link,
+header .items ul li a:visited {
+    color: white;
+    text-decoration: none;
+}
+header .items ul li a:hover {
+    color: black;
+    background-color: #FFC60B;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+header .buttons {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+header.sticky .items ul li a:link,
+header.sticky .items ul li a:visited {
+    color:#000;
+}
+header .buttons-small {
+    display: none;
+}
+header .brand {
+    position: relative;
+    transition: 0.5s;
+}
+header .brand:hover {
+    background-color: #FFC60B;
+    border-radius: 50%;
+}
+@media screen and (max-width: 900px) {
+    header .container {
+        display: block;
+    }
+    header .items {
+        display: flex;
+        justify-content: center;
+    }
+    header .buttons {
+        margin-top: 0.5rem;
+    }
+}
+@media screen and (max-width: 530px) {
+    header img {
+        display: none;
+    }
+    header .items ul li a {
+        letter-spacing: 0;
+    }
+    header .buttons {
+        display: none;
+    }
+    header .buttons-small {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
