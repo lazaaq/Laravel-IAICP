@@ -10,6 +10,6 @@ class Field extends Model
     use HasFactory;
 
     public function university() {
-        $this->hasMany(University::class);
+        return $this->hasMany(University::class);
     }
 }

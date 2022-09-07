@@ -42,6 +42,10 @@ class User extends Authenticatable
     ];
 
     public function generation() {
-        $this->belongsTo(Generation::class);
+        return $this->belongsTo(Generation::class);
+    }
+
+    public function universities() {
+        return $this->hasMany(University::class);
     }
 }

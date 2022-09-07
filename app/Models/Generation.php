@@ -10,6 +10,6 @@ class Generation extends Model
     use HasFactory;
 
     public function users() {
-        $this->hasMany(User::class);
+        return $this->hasMany(User::class);
     }
 }

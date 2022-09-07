@@ -16,14 +16,29 @@ class UserSeeder extends Seeder
     {
         User::create([
             'generation_id' => 3,
-            'email' => 'lanasaiful411@gmail.com',
+            'username' => 'lazaaq',
+            'email' => 'lanasaiful411@gmail.com' ,
             'password' => 'pass',
             'fullname' => 'Lana Saiful Aqil',
-            'bio' => 'bodoamat njir',
+            'bio' => 'bodoamat',
             'whatsapp' => '085800669010',
             'instagram' => 'lazaaq',
             'berkuliah' => true,
             'bekerja' => false,
         ]);
+        for($i = 0; $i < 15; $i++) {
+            User::create([
+                'generation_id' => random_int(1, 4),
+                'username' => 'username' . $i,
+                'email' => 'email' . $i . '@gmail.com' ,
+                'password' => 'pass',
+                'fullname' => 'User ' . $i,
+                'bio' => 'my bio',
+                'whatsapp' => '085800669010',
+                'instagram' => 'instagram' . $i,
+                'berkuliah' => true,
+                'bekerja' => false,
+            ]);
+        }
     }
 }
